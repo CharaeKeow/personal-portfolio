@@ -5,7 +5,7 @@
 }
 
 body {
-  width: ;
+  width: 100%;
   margin:  auto;
 }
 
@@ -49,7 +49,9 @@ nav ul li a:hover {
   font-family: Patua One;
   font-size: 25px;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 
 }
 
 .name {
@@ -71,15 +73,24 @@ nav ul li a:hover {
 /* Portfolio Section */
 
 #projects {
+  font-family: IBM Plex Sans;
   text-align: center;
-  margin-top: 40px;
-  display: grid;
+  margin-top: ;
+  display: ;
+  flex-direction: column;
+  background: #fff;
+  width: 100%;
+  padding-top: 60px;
+}
+
+#projects h2 {
+  padding-top: ;
 }
 
 .all {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: center;  
 }
 
 .project-tile {
@@ -100,12 +111,6 @@ nav ul li a:hover {
   margin-top: 10px;
 }
 
-.more
-
-@media only screen and (max-width: 800px) {
-  .all {
-    display: flex;
-    flex-direction: column;
-  }  
+.more {
+  padding-bottom: 16px;
 }
-
