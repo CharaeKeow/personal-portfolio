@@ -114,3 +114,115 @@ nav ul li a:hover {
 .more {
   padding-bottom: 16px;
 }
+
+/* Contact */
+
+#contact {
+  background-color: #bad4ff;
+  text-align: center;
+  display: block flex;
+  flex-direction: row;
+  color: #000;
+  padding: 150px;  
+}
+
+.promote {
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.promote h3 {
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 10px ;
+  font-family: Lalezar;
+}
+
+.promote p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: ubuntu;
+}
+
+.promote button {
+  height: 55px;
+  width: 140px;
+  background-color: #eee;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#social {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;  
+}
+
+#social a {
+  text-decoration: none;
+}
+
+/*Icons of each social site*/
+
+.icons {
+  margin: 30px 20px;
+  display: block;
+}
+
+.icons p {
+  font-size: 15px;
+  color: #000;
+}
+
+.fcc {
+  color: #306033;
+}
+
+.twitter {
+  color: #00a9ff;
+}
+
+.facebook {
+  color: #0936c6;  
+}
+
+.instagram {
+  color: #990ad6;
+}
+
+.github {
+  color: #000;
+}
+
+.email {
+  color: #ffaa00;
+}
+
+/* Footer */
+footer {
+  height: 50px;
+  background-color: #515150;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 15px;
+}
+
+footer span {
+  text-decoration: none;
+  color: #d8ff00;
+  font-weight: bold;
+}
+
