@@ -226,3 +226,61 @@ footer span {
   font-weight: bold;
 }
 
+/* Media query */
+
+@media only screen and (max-width: 800px) {
+  nav ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  nav ul li {
+    margin: 10px;
+  }
+  
+  #projects {
+    width: 75%;
+    margin: 40px auto 20px auto;
+  }
+  
+  .project-tile {
+    width: 100%;
+    margin: 15px auto;
+  }
+  
+  .desc {
+    font-size: 14px;
+  }
+  
+  .project-img {
+    width: 100%;
+  }
+  
+  .all {
+    display: flex;
+    flex-direction: column;
+  }  
+  
+  #contact {
+    padding: 30px;    
+  }
+  
+  .promote h3 {
+    font-size: 26px;
+  }
+  
+  .promote p {
+    font-size: 16px;
+  }
+  
+  #social {
+    flex-flow: column;
+    margin-top: -30px;
+    padding-top: 30px;
+  }
+  
+  .icons {
+    margin: 10px;    
+  }  
+}
+
