@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin:  auto;
+}
+
+nav {
+  position: fixed;
+  text-align: right;
+  width: 100%;
+  background-color: #515150;  
+}
+
+nav ul {
+  margin: 0 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 25px 50px;  
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  border-bottom: 3px solid #ffe100;
+  padding-bottom: 3px;
+  border-radius: ;
+}
+
+/* Welcome Section */
+
+#welcome-section {
+  top: 0;
+  background-color: #515150;
+  height: 100vh;
+  padding-top: 45vh;
+  text-align: center;
+  color: #fff;
+  min-height: 55vh;  
+  font-family: Patua One;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 
+}
+
+.name {
+  color: #d8ff00;
+}
+
+.button {
+  padding: 10px;
+  margin: 10px auto;
+  font-family: Arial;
+  font-size: 20px;
+  background-color: #777;
+  border: 1px solid;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+}
